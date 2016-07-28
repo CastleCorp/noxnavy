@@ -31,9 +31,8 @@
             <ul class="nav navbar-nav navbar-left">
                 <li><a href="#section1">Welcome</a></li>
                 <li><a href="#section2">Who</a></li>
-                <li><a href="#section3">What</a></li>
-                <li><a href="#section4">Where</a></li>
-                <li><a href="#section5">Contact</a></li>
+                <li><a href="#section3">Where</a></li>
+                <li><a href="#section4">Contact</a></li>
                 <li>&nbsp;</li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -44,11 +43,14 @@
 </nav>
 
 <section class="container-fluid" id="section1">
-  <video autoplay muted id="bgvid">
+  <video autoplay muted id="bgvid" loop="true">
     <source src="/media/Video.webm" type="video/webm">
 </video>
+<a onclick="enableMute()" type="button" class="btn btn-primary btn-sm pull-right">Toggle Sound</a>
+
     <div class="v-center">
         <h1 class="text-center" style="color:#f44d3c;">The Noxontown Navy</h1>
+        <p class="text-center"><hr width="35%"></p>
         <h2 class="text-center lato animate slideInDown" style="color:#fff;">St. Andrews School Alumni Crew</h2>
     </div>
     <a href="#section2">
@@ -61,92 +63,12 @@
 </section>
 
 <section class="container-fluid" id="section2">
-    <div class="container v-center">
+    <div class="container">
         <div class="row text-center">
-            <h2>Who are the NoxNavy?</h2>
-            <p>We are a group of St. Andrews School alumni who rowed when we attended the school. We all hold a great love for St. Andrews and for crew, so it is fitting that we carry on the tradition.</p>
-            <div class="col-sm-2 col-sm-offset-1 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:200px;" class="img-circle img-responsive img-thumbnail" src="//placehold.it/200/444">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:200px;" class="img-circle img-responsive img-thumbnail" src="//placehold.it/200/444">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:200px;" class="img-circle img-responsive img-thumbnail" src="//placehold.it/200/444">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:200px;" class="img-circle img-responsive img-thumbnail" src="//placehold.it/200/444">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:200px;" class="img-circle img-responsive img-thumbnail" src="//placehold.it/200/444">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-2 col-sm-offset-1 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:200px;" class="img-circle img-responsive img-thumbnail" src="//placehold.it/200/444">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:200px;" class="img-circle img-responsive img-thumbnail" src="//placehold.it/200/444">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:200px;" class="img-circle img-responsive img-thumbnail" src="//placehold.it/200/444">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:200px;" class="img-circle img-responsive img-thumbnail" src="//placehold.it/200/444">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:200px;" class="img-circle img-responsive img-thumbnail" src="//placehold.it/200/444">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
+            <h2>Who are we?</h2>
+            <p>We are a group of St. Andrews School alumni who rowed when we attended the school. We all hold a great love for St. Andrews and for crew, and we seek to carry on the tradition--and look damn good doing it!</p>
+            <img src="/media/group.jpg" class="img-square img-responsive thumbnail center-block" width="55%" height="40%">
+          </div>
         </div>
         <!--/row-->
         <div class="row">
@@ -157,20 +79,10 @@
 </section>
 
 <section class="container-fluid" id="section3">
-    <h1 class="text-center">What are we?</h1>
-    <div class="row">
-        <div class="col-sm-6 col-sm-offset-3">
-            <h3 class="text-center lato slideInUp animate">Just a Group of Guys Who Like to Have Fun</h3>
-            <br>
-            <div class="row">
-                <h4>Our goals are to row well, be competitive and have fun doing it.</h4>
-            </div>
-            <br>
-            <p class="row">
-                <img src="/media/group.jpg" style="max-height:350px;" class="img-square img-responsive thumbnail center-block col-md-4"><img src="/media/banner.jpg" style="max-height:550px;" class="img-square img-responsive thumbnail center-block col-md">
-            </p>
-        </div>
-    </div>
+    <h2 class="text-center">Where are we?</h2>
+    <div class="v-center text-center">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3081.6336061822885!2d-75.68928888463377!3d39.432408979491754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c70ab8de389a4f%3A0x1e245b1a659b05b8!2sSt+Andrew&#39;s+School!5e0!3m2!1sen!2sus!4v1469670719479" style="height:130%; width:75%;" frameborder="0" style="border:0" class="center-block thumbnail" allowfullscreen></iframe>
+  </div>
 </section>
 
 <section id="section4">
@@ -416,5 +328,13 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
     <script src="js/scripts.js"></script>
+
+    <script>
+    var vid = document.getElementById("bgvid");
+
+    function enableMute() {
+        vid.muted = !vid.muted;
+    }
+    </script>
   </body>
 </html>

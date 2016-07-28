@@ -212,3 +212,8 @@ video#bgvid {
     background: url(polina.jpg) no-repeat;
     background-size: cover;
 }
+
+#inline-imgs {
+	display: inline-block;
+	width: 100%;
+}
